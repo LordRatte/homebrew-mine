@@ -28,7 +28,6 @@ class ShinyAndGnu < Formula
   depends_on 'python'
   depends_on 'rsync'
   depends_on 'vim' => 'override-system-vi'
-  depends_on 'zsh'
 
   # It's complicated...
   option 'with-gdb', 'If you want to replace `gdb`, see `brew info gdb`'
